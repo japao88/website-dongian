@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Xếp Hạng Premier League</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fff;
+            color: #006BB6;
+            padding: 20px;
+            text-align: center;
+        }
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header-content img {
+            width: 100px;
+            margin-left: 10px;
+        }
+	 main {
+            display: flex;
+            justify-content: space-between;
+            margin: 0px;
+        }
+        .main-column {
+            flex-grow: 1;
+        }
+        .main-image {
+            display: block;
+            margin: auto;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        .image-column {
+            flex-basis: 30%;
+        }
+        .image-column img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            margin-bottom: -10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1><b>BXH NGOẠI HẠNG ANH 23/24</b></h1>
+            <img src="Premier_League_Logo.png">
+        </div>
+    </header>
+    <main>
+        <div class="image-column">
+            <img src="bruno.jpg">
+            <img src="salah.jpg">
+            <img src="kevin.jpg">
+        </div>
+<div class="main-column">
+            <img src="epltable.jpg" class="main-image">
+        </div>
+        <div class="image-column">
+            <img src="son.jpg">
+            <img src="harvert.jpg">
+            <img src="chelsea.jpg">
+        </div>
+    </main>
+</body>
+</html>
